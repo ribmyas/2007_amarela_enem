@@ -20,8 +20,8 @@ OBS6: as imagens vão receber um novo nome, com o sufixo "_esquerda" ou "_direit
 from PIL import Image
 import os
 
-pasta_imagens = "1169"
-pasta_saida = "1169-cortadas"
+pasta_imagens = "pg6"
+pasta_saida = "pg6-cortadas"
 
 os.makedirs(pasta_saida, exist_ok=True)
 
@@ -32,7 +32,7 @@ for nome_arquivo in os.listdir(pasta_imagens):
 
         largura, altura = imagem.size
         
-        metade_largura = 1169
+        metade_largura = 1092
         
         caixa_esquerda = (0, 0, metade_largura, altura)
         imagem_esquerda = imagem.crop(caixa_esquerda)
