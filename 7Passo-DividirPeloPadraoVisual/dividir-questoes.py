@@ -88,8 +88,8 @@ def dividir_imagem_por_faixas(caminho_imagem, pasta_saida):
         print(f"Salvo: {caminho_completo} ({secao.width}x{secao.height}px)")
 
 if __name__ == "__main__":
-    caminho_imagem = "./pg6-cortadas-sem-bordas/pagina_enem_6_esquerda.png"  # Substitua pelo caminho da imagem
-    pasta_saida = "pg6E"          # Substitua pela pasta de destino
+    caminho_imagem = "./pg6-cortadas-sem-bordas/pagina_enem_6_direita.png"  # Substitua pelo caminho da imagem
+    pasta_saida = "pg6D"          # Substitua pela pasta de destino
     
     dividir_imagem_por_faixas(caminho_imagem, pasta_saida)
     print("Divisão concluída!")

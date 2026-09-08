@@ -19,7 +19,7 @@ OBS3: para cada vez que executar esse código, faça:
 import os
 
 def renomear_questoes_simples():
-    pasta = "56-63" # ATUALIZAR com o nome da pasta das questões que você vai arrumar 
+    pasta = "23-49" # ATUALIZAR com o nome da pasta das questões que você vai arrumar 
     
     if not os.path.exists(pasta):
         print(f"Pasta {pasta} não encontrada!")
